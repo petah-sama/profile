@@ -1,0 +1,87 @@
+@import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins:200,400&display=swap');
+
+body {
+  background-color: #777b91;
+  font-family: 'Open Sans';
+  color: black;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+h1, h2, h3 {
+  color: #2a324b;
+  font-family: 'Poppins'
+}
+
+h2, h3 {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+h1, h2 {
+  line-height: 10px;
+}
+
+a {
+  color: #f7c59f;
+  text-decoration: none;
+  font-weight: bolder;
+
+}
+
+
+p {
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 50px;
+}
+
+.list-inline i {
+  font-size: 50px;
+}
+
+.list-inline i:hover {
+  color: #8cc0a0;
+}
+
+.container {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.card {
+  background: #e1e5ee;
+  padding: 30px;
+  width: 500px;
+  margin: 30px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #2a324b;
+  text-align: center;
+}
+
+.img-circle {
+  width: 200px;
+  border-radius: 50%;
+  text-align: center;
+  border: 2px solid #2a324b;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #f7c59f;
+  color: #2a324b;
+  border-radius: 30px;
+  margin: 50px 50px auto;
+
+}
+
+.btn:hover {
+  background-color: #8cc0a0;
+  color: white;
+  box-shadow: 5px 5px 10px #2a324b;
+}
